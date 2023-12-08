@@ -1,0 +1,664 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+*
+{
+padding: 0;
+margin: 0;
+}
+@media screen and (min-width:1024px){
+
+.container {
+    width: 100%;
+}
+.mobile-content{
+    display: none;
+}
+.main-header{
+    position: relative;
+
+}
+.main-header nav {
+    position: absolute;
+    left: 20px;
+    
+
+}
+
+.desk1 {
+    width: 630px;
+    height: 450px;
+}
+.fa-bars {
+    display: none;
+}
+.sneak {
+    font-weight: 600;
+    font-size: 22px;
+
+}
+.dropdown .sneak{
+    display: inline-flex;
+    margin-top: 2rem;
+}
+.dropdown-content a{
+margin-right: 25px;
+color: white;
+font-weight: 400;
+text-decoration: none;
+}
+.column {
+    display: flex;
+
+
+}
+.column2 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    top: -4px;
+    margin-bottom: 3rem;
+
+}
+.con1 {
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
+.con3 {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.con2 {
+    margin-left: 2.3rem;
+    margin-right: 2.4rem;
+    padding-top: 3rem;
+}
+.shop-now {
+    margin-top: 1.2rem;
+    letter-spacing: 1rem;
+}
+.fa-long-arrow-right {
+    margin-right: 15px;
+}
+.arrow {
+    display: flex;
+    width: 22.5%;
+    position: relative;
+    bottom: -84px;
+    padding: 22px;
+    border: 2px solid black;
+    justify-content: space-between;
+    background-color: black;
+    
+}
+.fa-chevron-left {
+    color: white;
+    font-weight: 50;
+}
+.fa-chevron-right {
+    color: white;
+    font-weight: 50;
+}
+p {
+    font-size: 15px;
+        line-height: 22px;
+        font-weight: 400;
+        color: silver;;
+}
+h1 {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: poppins;
+    margin-bottom: 1rem;
+}
+h2 {
+    margin-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: poppins;
+    word-spacing: 1rem;
+}
+
+}
+
+
+
+ @media screen and (max-width: 768px) {
+    .container{
+        display: none;
+    }
+
+    .mobile-content{
+        box-sizing: border-box;
+        width: 100%;
+
+    } 
+
+    .mobile-container{
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    .m-room{
+    width: 100%;
+    height: 360px;
+    }  
+
+    .m-dark{
+    width: 100%;
+    height: 250px;
+    }
+
+    .m-light{
+    width: 100%;
+    height: 250px;
+    }
+
+    .mobile-direction{ 
+        margin-top: -4.1rem;
+        border: 2px solid black;
+        justify-content: space-between;
+        margin-left: 23.5rem;
+        background-color: black;
+    } 
+
+    .fa-chevron-left{
+        color: white;
+        font-weight: 100;
+    }
+
+    .fa-chevron-right{
+        color: whitesmoke;
+        font-weight: 100;
+    }
+
+    .fa-bars{
+        color: white;
+        position: absolute;
+        top: 22px;
+        left: 75px;
+        font-size: 25px;
+        font-weight: 300;
+        z-index: 1;
+    }
+
+    .roomy-container {
+    position: relative;
+    display: inline-block;
+    }
+
+    .roomy{
+        position: absolute;
+        top: -4px;
+        left: 340px;
+        padding: 5px;
+        font-size: 30px;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+        z-index: 1;
+    }
+
+    .discovery{
+        margin-left: 2rem;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+
+    .discovery h3{
+        padding-bottom: 1.2rem;
+        font-size: 30px;
+        font-weight: 900;
+        
+    }
+
+    .discovery p{
+        font-size: 20px;
+        line-height: 29px;
+        font-weight: 500;
+        color: silver;
+    }
+
+    .discovery .shop-now{
+        padding-top: 1.8rem;
+        padding-bottom: 1rem;
+        letter-spacing: 0.7rem;
+        font-weight: 700;
+    }
+
+    .m-about{
+        padding-top: 2.2rem;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .m-about h3{
+        font-weight: 600;
+        font-size: 30px;
+        padding-bottom: 1rem;
+    }
+
+    .m-about p{
+        font-size: 20px;
+        line-height: 29px;
+        font-weight: 400;
+        color: silver;
+        padding-bottom: 1rem;
+    }
+
+    .m-room {
+        max-height: fit-content;
+        position: relative;
+        top: -20px;
+    }
+
+} 
+
+/* 12pro,pixel5 425px*/
+@media screen and (max-width: 760px) {
+    .container{
+        display: none;
+    }
+
+    .mobile-content{
+        box-sizing: border-box;
+        width: 100%;
+
+    } 
+
+    .mobile-container{
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    .m-room{
+    width: 100%;
+    height: 360px;
+    }  
+
+    .m-dark{
+    width: 100%;
+    height: 250px;
+    }
+
+    .m-light{
+    width: 100%;
+    height: 250px;
+    }
+
+    .mobile-direction{ 
+        /* position: relative; */
+        /* top: -66px; */
+        /* left: 335px; */
+        /* display: flex; */
+        margin-top: -4.1rem;
+        border: 2px solid black;
+        justify-content: space-between;
+        margin-left: 3.4rem;
+        /* width: 15.7%; */
+        background-color: black;
+        /* padding: 10px; */
+    } 
+
+    .fa-chevron-left{
+        color: white;
+        font-weight: 100;
+    }
+
+    .fa-chevron-right{
+        color: whitesmoke;
+        font-weight: 100;
+    }
+
+    .fa-bars{
+        color: white;
+        position: absolute;
+        top: 22px;
+        left: 35px;
+        font-size: 25px;
+        font-weight: 300;
+        z-index: 1;
+    }
+
+    .roomy-container {
+    position: relative;
+    display: inline-block;
+    }
+
+    .roomy{
+        position: absolute;
+        top: -4px;
+        left: 170px;
+        padding: 5px;
+        font-size: 30px;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+        z-index: 1;
+    }
+
+    .discovery{
+        margin-left: 2rem;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+
+    .discovery h3{
+        padding-bottom: 1.2rem;
+        font-size: 30px;
+        font-weight: 900;
+        
+    }
+
+    .discovery p{
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 500;
+        color: silver;
+    }
+
+    .discovery .shop-now{
+        padding-top: 1.8rem;
+        padding-bottom: 1rem;
+        letter-spacing: 0.7rem;
+        font-weight: 700;
+    }
+
+    .m-about{
+        padding-top: 2.2rem;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .m-about h3{
+        font-weight: 600;
+        font-size: 19px;
+        padding-bottom: 1rem;
+    }
+
+    .m-about p{
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 400;
+        color: silver;
+        padding-bottom: 1rem;
+    }
+
+    .m-room {
+        max-height: fit-content;
+        position: relative;
+        top: -20px;
+    }
+
+}
+
+
+/* @media screen and (max-width: 500px) {
+    .container{
+        display: none;
+    }
+
+    .mobile-content{
+        box-sizing: border-box;
+        width: 100%;
+
+    } 
+
+    .mobile-container{
+        
+        display: flex;
+        flex-direction: column;
+    }
+
+    .m-room{
+    width: 100%;
+    height: 360px;
+    }  
+
+    .m-dark{
+    width: 100%;
+    height: 250px;
+    }
+
+    .m-light{
+    width: 100%;
+    height: 250px;
+    }
+
+    .mobile-direction{ 
+        /* position: relative; */
+        /* top: -66px; */
+        /* left: 335px; */
+        /* display: flex; */
+        /* margin-top: -4.1rem; */
+        /* border: 2px solid black; */
+        /* justify-content: space-between; */
+        /* margin-left: 6rem; */
+        /* width: 15.7%; */
+        /* background-color: black; */
+        /* padding: 10px; */
+    /* }  */
+/* 
+    .fa-chevron-left{
+        color: white;
+        font-weight: 100;
+    }
+
+    .fa-chevron-right{
+        color: whitesmoke;
+        font-weight: 100;
+    }
+
+    .fa-bars{
+        color: white;
+        position: absolute;
+        top: 22px;
+        left: 35px;
+        font-size: 25px;
+        font-weight: 300;
+        z-index: 1;
+    }
+
+    .roomy-container {
+    position: relative;
+    display: inline-block;
+    }
+
+    .roomy{
+        position: absolute;
+        top: -4px;
+        left: 170px;
+        padding: 5px;
+        font-size: 30px;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+        z-index: 1;
+    }
+
+    .discovery{
+        margin-left: 2rem;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+
+    .discovery h3{
+        padding-bottom: 1.2rem;
+        font-size: 30px;
+        font-weight: 900;
+        
+    }
+
+    .discovery p{
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 500;
+        color: silver;
+    }
+
+    .discovery .shop-now{
+        padding-top: 1.8rem;
+        padding-bottom: 1rem;
+        letter-spacing: 0.7rem;
+        font-weight: 700;
+    }
+
+    .m-about{
+        padding-top: 2.2rem;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .m-about h3{
+        font-weight: 600;
+        font-size: 19px;
+        padding-bottom: 1rem;
+    }
+
+    .m-about p{
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 400;
+        color: silver;
+        padding-bottom: 1rem;
+    }
+
+    .m-room {
+        max-height: fit-content;
+        position: relative;
+        top: -20px;
+    } */
+
+/* } */ 
+
+
+/* @media screen and (max-width: 414px){ */
+.mobile-content .mobile-container .mobile-direction{
+    position: relative;
+    top: -69.5;
+    right: -230px;
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between;
+    width: 18%;
+    background-color: blaxck;
+    padding: 10px;
+}
+/* } */
+
+    @media screen and (max-width: 320px){
+        .container {
+            height: fit-content;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .m-room{
+            width: 100%;
+            height: 330px;
+        }  
+        
+        .m-dark{
+            width: 100%;
+            height: 250px;
+        }
+        
+        .m-light{
+            width: 100%;
+            height: 250px;
+        }
+        
+        .mobile-direction{
+            border: 2px solid black;
+            justify-content: space-between;
+            background-color: black;
+            margin-top: -4.15rem;
+            margin-left: 0.5rem;
+        }     
+
+        .discovery {
+            margin-top: 2rem;
+        }
+
+        .discovery p {
+            white-space: nowrap;
+            font-size: 13px;
+        }
+
+        .m-about p{
+            white-space: nowrap;
+            font-size: 13px;
+        }
+
+    }
+
+    @media screen and (min-width: 425px) and (max-width: 426px) {
+        .mobile-direction{ 
+            margin-top: -4.1rem;
+            border: 2px solid black;
+            justify-content: space-between;
+            margin-left: 5.93rem;
+            background-color: black;
+        } 
+    
+    }
+
+
+    @media screen and (min-width: 414px) and (max-width: 415px) {
+        .mobile-direction{ 
+            margin-top: -4.1rem;
+            border: 2px solid black;
+            justify-content: space-between;
+            margin-left: 5.4rem;
+            background-color: black;
+        } 
+    
+    }
+
+    @media screen and (min-width: 390px) and (max-width: 391px) {
+        .mobile-direction{ 
+            margin-top: -4.1rem;
+            border: 2px solid black;
+            justify-content: space-between;
+            margin-left: 4.20rem;
+            background-color: black;
+        } 
+    
+    }
+
+    
+
+@media screen and (min-width: 430px) and (max-width: 431px) {
+        .mobile-direction{ 
+            margin-top: -4.1rem;
+            border: 2px solid black;
+            justify-content: space-between;
+            margin-left: 6.2rem;
+            background-color: black;
+        }
+    }
+
+
+    @media screen and (min-width: 412px) and (max-width: 413px) {
+        .mobile-direction{ 
+            margin-top: -4.1rem;
+            border: 2px solid black;
+            justify-content: space-between;
+            margin-left: 5.3rem;
+            background-color: black;
+        }
+    }
+
+
+        @media screen and (min-width: 360px) and (max-width: 361px) {
+        .mobile-direction{ 
+            margin-top: -4.15rem;
+            border: 2px solid black;
+            justify-content: space-between;
+            margin-left: 2.63rem;
+            background-color: black;
+        }
+    }
