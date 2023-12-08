@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="view port" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css1/sub1.css">
+  <title>Card</title>
+ </head>
+ <body>
+   <div id="menu">
+      <a href="index.html">HOME</a> |
+      <a href="pages/registration.html">FORM</a> |
+      <a href="pages/resource.html">SIGN-UP</a> |
+      <a href="pages/fun.html">FURNITURE</a> |
+      <a href="pages/resource.html">FURNITURE</a> |
+      <a href="pages/content.html">FURNITURE</a> |
+
+    </div>
+
+   <div class="container">
+      <div class="red">
+        <h1>Food Value Chain Management</h1>
+        <p>We have built an integrated food,
+          management system software for restaurant ownersand local vendors to buy the bulk food directly use it as,a raw material for their purposes.
+        </p>
+        <div class="button">
+          <button class="know-more">Know More</button>
+        </div>
+     </div>
+
+        <div class="green">
+          <h1>Food Waste Management</h1>
+         <p> We collaborateagement</h1> with the local restaurants in the cities and collect food waste, repackage
+            it in cold storages and warehouses,
+            and selling it to the marginalized sections of the society.
+         </p>
+         <div class="button">
+            <button class="know-more">Know More</button>
+         </div>
+        </div>
+
+        <div class="orange">
+          <h1>Digital Farming Management
+          <p>Application of decision quality agronomic information illuminate,
+           predict, and affect the continuum of cultivation issues across the,
+           farm and generate effective information.
+         </p>
+         <div class="button">
+            <button class="know-more">Know More</button>
+          </div>
+        </div>
+
+   </div>
+ </body>
+</html>
+
+
+
+
+
+.container {
+    display: flex;
+    box-sizing: border-box;
+    /* height: 100vh; */
+}
+.first {
+margin-top: 2rem;
+margin-left: 2.5rem;
+
+}
+.passive img {
+width: 530px;
+}
+
+.second {
+margin-left: 6rem;
+margin-top: 8.5rem;
+}
+.second .sibling h1 {
+margin-bottom: 1rem;
+font-size: 32px;
+font-weight: 900;
+color: white;
+line-height: 1.2em;
+}
+.second .sibling p {
+font-size: 15px;
+font-weight: 400;
+color: white;
+line-height: 1.5em;
+margin-bottom: 1rem;
+}
+
+.subb{
+background-color: white;
+width: 85%;
+border-color: white;
+box-shadow: none;
+height: 50px;
+color: magenta;
+font-size: small;
+/* position: relative; */
+font-weight: 500;
+/* right: 12rem; */
+border-radius: 2rem;
+margin-bottom: 3rem;
+margin-top: 1rem;
+}
+.icons{
+display: flex;
+width: 50px;
+font-size: 24px;
+padding-left: 12rem;
+justify-content: space-between;
+padding-right: 1rem;
+/* background-color: hsl(257, 40%, 49%);  */
+
+      
+}
+.face{
+border-radius: 50%;
+border: 1px solid purple;
+padding: 0.5rem;
+margin-right: 5px;
+
+}
+
+
+@media only screen and (max-width:768px) {
+.bodyd {
+background-color: hsl(300, 69%, 71%);
+box-sizing: border-box;
+}
+.container {
+display: flex;
+flex-direction: column;
+box-sizing: border-box;
+height: 100vh;
+}
+
+.passive img {
+max-width: 100%;
+}
+.active img{
+margin-bottom: 1rem;
+}
+.second {
+margin-top: 1rem;
+align-items: center;
+justify-content: center;
+}
+.second .sibling h1 {
+color: white;
+text-align: center;
+padding-bottom: 1rem;
+}
+
+.second .sibling p {
+color: white;
+text-align: center;
+padding-bottom: 2rem;
+font-size: medium;
+}
+
+
+.second .face{
+
+/* position: relative; */
+/* display: flex; */
+/* left: -90px; */
+/* margin-bottom: 3rem; */
+/* justify-content: center; */
+}
+.subb {
+width: 65%;
+border-radius: 25px;
+padding: 15px;
+height: 50px;
+border: 2px solid white;
+/* text-align: center; */
+position: relative;
+left: 60px;
+color: magenta;
+}
+
+
+.icons {
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+padding-top: 1.5rem;
+
+}
+
+
+.face {
+border-radius: 50%;
+border: 1px solid purple;
+padding: 0.5rem;
+margin-right: 5px;
+
+}
+}
+
+
+@media only screen and (min-width:769px) {
+.container {
+box-sizing: border-box;
+width: 100%;
+height: 100vh;
+}
+
+.container .passive {
+    max-width: 100%;
+}
+
+.sibling h1{
+    color: white;
+    padding-bottom: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.sibling p {
+    text-align: center;
+    padding-bottom: 3rem;
+    font-weight: 400;
+    color: white;
+    font-size: large;
+    line-height: 1.6rem;
+}
+
+.subb {
+    width: 45%;
+    border-radius: 25px;
+    padding: 15px;
+    border: 2px solid white;
+    /* text-align: center; */
+    position: relative;
+    right: -200px;
+    background-color: white;
+
+    color: magenta;
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 2rem;
+    
+}
+
+
+.face {
+    border-radius: 50%;
+    border: 1px solid purple;
+    padding: 0.5rem;
+    margin-right: 5px;
+
+}
+
+}
