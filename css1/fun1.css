@@ -142,25 +142,25 @@ h2 {
     }
 
     .m-room{
-    width: 100%;
+    width: 98%;
     height: 360px;
     }  
 
     .m-dark{
-    width: 100%;
+    width: 98%;
     height: 250px;
     }
 
     .m-light{
-    width: 100%;
+    width: 98%;
     height: 250px;
     }
 
     .mobile-direction{ 
-        margin-top: -4.1rem;
+        margin-top: -4.15rem;
         border: 2px solid black;
         justify-content: space-between;
-        margin-left: 23.5rem;
+        margin-left: 22.5rem;
         background-color: black;
     } 
 
@@ -275,17 +275,17 @@ h2 {
     }
 
     .m-room{
-    width: 100%;
+    width: 98%;
     height: 360px;
     }  
 
     .m-dark{
-    width: 100%;
+    width: 98%;
     height: 250px;
     }
 
     .m-light{
-    width: 100%;
+    width: 98%;
     height: 250px;
     }
 
@@ -557,17 +557,17 @@ h2 {
         }
 
         .m-room{
-            width: 100%;
+            width: 98%;
             height: 330px;
         }  
         
         .m-dark{
-            width: 100%;
+            width: 98%;
             height: 250px;
         }
         
         .m-light{
-            width: 100%;
+            width: 98%;
             height: 250px;
         }
         
@@ -576,7 +576,7 @@ h2 {
             justify-content: space-between;
             background-color: black;
             margin-top: -4.15rem;
-            margin-left: 0.5rem;
+            margin-left: 0.11rem;
         }     
 
         .discovery {
@@ -597,10 +597,10 @@ h2 {
 
     @media screen and (min-width: 425px) and (max-width: 426px) {
         .mobile-direction{ 
-            margin-top: -4.1rem;
+            margin-top: -4.13rem;
             border: 2px solid black;
             justify-content: space-between;
-            margin-left: 5.93rem;
+            margin-left: 5.49rem;
             background-color: black;
         } 
     
@@ -609,34 +609,32 @@ h2 {
 
     @media screen and (min-width: 414px) and (max-width: 415px) {
         .mobile-direction{ 
-            margin-top: -4.1rem;
+            margin-top: -4.15rem;
             border: 2px solid black;
             justify-content: space-between;
-            margin-left: 5.4rem;
+            margin-left: 4.95rem;
             background-color: black;
         } 
     
     }
 
-    @media screen and (min-width: 390px) and (max-width: 391px) {
+    @media screen and (min-width: 390px) and (max-width: 392px) {
         .mobile-direction{ 
-            margin-top: -4.1rem;
+            margin-top: -4.15rem;
             border: 2px solid black;
             justify-content: space-between;
-            margin-left: 4.20rem;
+            margin-left: 3.72rem;
             background-color: black;
         } 
     
-    }
+    }    
 
-    
-
-@media screen and (min-width: 430px) and (max-width: 431px) {
+@media screen and (min-width: 430px) and (max-width: 432px) {
         .mobile-direction{ 
-            margin-top: -4.1rem;
+            margin-top: -4.15rem;
             border: 2px solid black;
             justify-content: space-between;
-            margin-left: 6.2rem;
+            margin-left: 5.75rem;
             background-color: black;
         }
     }
@@ -644,10 +642,10 @@ h2 {
 
     @media screen and (min-width: 412px) and (max-width: 413px) {
         .mobile-direction{ 
-            margin-top: -4.1rem;
+            margin-top: -4.15rem;
             border: 2px solid black;
             justify-content: space-between;
-            margin-left: 5.3rem;
+            margin-left: 4.75rem;
             background-color: black;
         }
     }
@@ -655,10 +653,79 @@ h2 {
 
         @media screen and (min-width: 360px) and (max-width: 361px) {
         .mobile-direction{ 
+            margin-top: -4.17rem;
+            border: 2px solid black;
+            justify-content: space-between;
+            margin-left: 2.15rem;
+            background-color: black;
+        }
+    }
+
+    @media screen and (min-width: 375px) and (max-width: 376px) {
+        .mobile-direction{ 
             margin-top: -4.15rem;
             border: 2px solid black;
             justify-content: space-between;
-            margin-left: 2.63rem;
+            margin-left: 2.89rem;
             background-color: black;
         }
+    }
+
+    @media screen and (min-width: 529px) and (max-width: 530px) {
+        .mobile-direction{ 
+            margin-top: -4.15rem;
+            border: 2px solid black;
+            justify-content: space-between;
+            margin-left: 10.71rem;
+            background-color: black;
+        }
+    }
+
+    @media screen and (min-width: 540px) and (max-width: 542px) {
+        .mobile-direction{ 
+            margin-top: -4.15rem;
+            border: 2px solid black;
+            justify-content: space-between;
+            margin-left: 11.2rem;
+            background-color: black;
+        }
+    }
+
+    @media screen and (min-width: 280px) and (max-width: 300px){
+        
+    .fa-bars{
+        color: white;
+        position: absolute;
+        top: 22px;
+        left: 25px;
+        font-size: 25px;
+        font-weight: 300;
+        z-index: 1;
+    }
+
+    .roomy-container {
+    position: relative;
+    display: inline-block;
+    }
+
+    .roomy{
+        position: absolute;
+        top: -4px;
+        left: 120px;
+        padding: 5px;
+        font-size: 30px;
+        font-weight: 300;
+        color: white;
+        text-decoration: none;
+        z-index: 1;
+    }
+
+    .mobile-direction{ 
+        margin-top: -4.15rem;
+        border: 2px solid black;
+        justify-content: space-between;
+        margin-left: -1.9rem;
+        background-color: black;
+    }
+
     }
