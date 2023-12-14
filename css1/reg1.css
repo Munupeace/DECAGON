@@ -98,7 +98,26 @@ font-size: small;
 font-weight: 400;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 320px){
+    .bodyd{
+
+        background-color: hsl(0, 100%, 74%); 
+        background-image: url(../img1/regdesk.jpg);
+        background-blend-mode: multiply;
+        padding-bottom: 6rem;
+    }
+    
+    
+    .container{
+        color: white;
+        flex-direction: column;
+        display: flex;
+     }  
+    
+}
+
+
+/* @media only screen and (max-width: 768px){
     .container{
         color: white;
         flex-direction: column;
@@ -127,80 +146,6 @@ font-weight: 400;
         word-wrap: break-word;
         font-size: 16px;
     }
-}
-
-
-@media only screen and (max-width: 375px) {
-    .bodyd{
-        background-color: hsl(0, 100%, 74%);
-        background-image: url(../img/regmob.jpg);
-        background-size: cover;
-        /* width: calc(100% + 36rem); */
-        border: 2px solid green;
-        
-    }
-    
-    .container{
-        border: 2px solid red;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        margin-top: -10rem;
-        
-    }
-
-    .code{
-        width: 100%;
-        /* text-align: center; */
-    }
-
-    .code h1 {
-        font-size: 19px;
-        /* padding-right: 1rem; */
-    }
-
-    .code p{
-       font-size: 16px;
-       display: flex;
-       align-items: center;
-       justify-content: center;
-       width: 100%;
-       /* padding-right: 1.6rem; */
-    }
-
-    .sibling h2 {
-        white-space: wrap;
-        font-size: 15px;
-        padding: 2px;
-    }
-
-    .second {
-        margin: 0;
-        width: 350px;
-        text-align: center;
-        height: 500px;
-        padding: 15px;
-    }
-
-    .subb{
-        width: 200px;
-    }
-    
-}
-
-/* @media only screen and (max-width: 375px){
-    .bodyd{
-        background-color: hsl(0, 100%, 74%);
-        background-image: url(../img/regmob.jpg);
-        background-size: cover;
-        width: fit-content;
-    }
-
-    .container{
-        display: flex;
-        flex-direction: column;
-        width: fit-content;
-        margin-top: -10rem;
-    }
-
 } */
+
+
